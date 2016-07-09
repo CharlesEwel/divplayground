@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  color: #932ff9;
+}
+
+.outsidebox {
+  border: 5px solid #00b3b4;
+  width: 1050px;
+  height: 780px;
+}
+
+.inner-lemonbox {
+  border: 5px solid #498fe2;
+  width: 260px;
+  height: 260px;
+  background-color: #a8c2e1;
+  color: #932ff9;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.outer-lemonbox {
+  width: 320px;
+  height: 320px;
+  position: absolute;
+  top: 240px;
+  left: 70px;
+  background-color: #9b9b9b;
+}
+
+img {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+p {
+  background-color: #d8d8d8;
+  border: 2px solid #a2a7ad;
+  margin: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  margin-top: 30px;
+  margin-bottom: auto;
+}
